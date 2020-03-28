@@ -1,0 +1,27 @@
+extends includes/layout.pug
+
+block variables
+  - var pageClass = 'right-sidebar is-preload';
+
+block title
+    title rafex.dev
+
+block meta
+    meta(name="description" content="this is a fork of the dopetrope template")
+    meta(name="keywords" content="template,theme,fork,dopetrope")
+    meta(name="author" content="@rafex")
+
+block scripts
+    script(defer src='./vendor.min.js')
+    script(defer src='./main.min.js')
+
+block content
+
+    section(id="main")
+        div(class="container")
+            div(class="row")
+                div(class="col-8 col-12-medium imp-medium")
+                    include partials/post
+                div(class="col-4 col-12-medium")
+                    include partials/recommended
+                    include partials/most-viewed-posts

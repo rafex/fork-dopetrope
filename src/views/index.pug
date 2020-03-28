@@ -1,0 +1,31 @@
+extends includes/layout.pug
+
+block variables
+  - var pageClass = 'homepage is-preload';
+
+block title
+    title rafex.dev
+
+block meta
+    meta(name="description" content="this is a fork of the dopetrope template")
+    meta(name="keywords" content="template,theme,fork,dopetrope")
+    meta(name="author" content="@rafex")
+
+block scripts
+    script(defer src='./vendor.min.js')
+    script(defer src='./main.min.js')
+
+block content
+    include partials/banner
+
+    include partials/intro
+
+    section(id="main")
+        div(class="container")
+            div(class="row")
+                div(class="col-12")
+                    //- Portfolio
+                    include partials/portfolio
+                div(class="col-12")
+                    //- Blog
+                    include partials/blog

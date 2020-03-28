@@ -1,0 +1,61 @@
+{
+  "name": "landing-page-quiroz",
+  "officialName": "Landing Page",
+  "version": "1.0.0",
+  "description": "Landing Page de Quiroz Guerrero Abogados",
+  "main": "gulpfile.js",
+  "author": "Nadia Aragón",
+  "license": "ISC",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build",
+    "serve": "gulp serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.rafex.dev/quirozguerrero-abogados/landing-page.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/register": "^7.9.0",
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "autoprefixer": "^9.7.5",
+    "babel-eslint": "^10.1.0",
+    "cssnano": "^4.1.10",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-dollar-sign": "^1.0.2",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jquery": "^1.5.1",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^6.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-stylus": "^2.7.0",
+    "gulp-uglify": "^3.0.2",
+    "popper.js": "^1.16.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "jquery": "^3.4.1",
+    "jquery-validation": "^1.19.1"
+  }
+}
